@@ -1,0 +1,21 @@
+{
+  "suiteName": "Language Change Test",
+  "suiteDescription": "Test cases collection for Language Change feature",
+  "testCases": [
+    {
+      "testId":"Language-Change-O1",
+      "testName": "User can change languages successfully.",
+      "testDescription":"Validate user can change the language.",
+      "testObjectives":"User change language successfully.",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "User can successfully change the language.",
+          "class": "LanguageChangeAction",
+          "method": "changelanguage"
+
+        }
+      ]
+    }
+  ]
+}

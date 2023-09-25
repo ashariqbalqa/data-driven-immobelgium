@@ -1,0 +1,197 @@
+{
+  "suiteName": "Agency Settings Test",
+  "suiteDescription": "Test cases to Test Agency Settings.",
+  "testCases": [
+
+    {
+      "testId":"ASO1",
+      "testName": "Verify Title of Agency Settings Page.",
+      "testDescription":"Validate Settings PageHeader on Agency Settings Page",
+      "testObjectives":"Validate Settings PageHeader",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate Settings Page Header",
+          "class": "SettingsActions",
+          "method": "AgencyVerifySettingsPageTitle",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+    {
+      "testId":"ASO2",
+      "testName": "Verify that user can add Additional Contact Field.",
+      "testDescription":"Verify that user can add Additional Contact Field in Settings Page.",
+      "testObjectives":"Validate user can add additional contact.",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate user can add additional contact.",
+          "class": "SettingsActions",
+          "method": "AddAddiotionalContact",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+    {
+      "testId":"ASO3",
+      "testName": "Verify that user can add Facebook Link.",
+      "testDescription":"Verify that user can add Facebook Link in Settings Page.",
+      "testObjectives":"Validate user can add Facebook Link.",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate user can add Facebook Link.",
+          "class": "SettingsActions",
+          "method": "AddFacebookLink",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+    {
+      "testId":"AS04",
+      "testName": "Verify that user can add Insta Link.",
+      "testDescription":"Verify that user can add Insta Link in Settings Page.",
+      "testObjectives":"Validate user can add Insta Link.",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate user can add Insta Link.",
+          "class": "SettingsActions",
+          "method": "AddInstaLink",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+    {
+      "testId":"AS05",
+      "testName": "Verify that user can add PIN Number.",
+      "testDescription":"Verify that user can add PIN Number in Settings Page.",
+      "testObjectives":"Validate user can add PIN Number.",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate user can add PIN Number.",
+          "class": "SettingsActions",
+          "method": "AddPINNumber",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+    {
+      "testId":"AS06",
+      "testName": "Verify that user can add Linkedin Link.",
+      "testDescription":"Verify that user can add Linkedin Link in Settings Page.",
+      "testObjectives":"Validate user can add Linkedin Link.",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate user can add Linkedin Link.",
+          "class": "SettingsActions",
+          "method": "AddLinkedinLink",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+    {
+      "testId":"AS07",
+      "testName": "Verify that user can add Twitter Link.",
+      "testDescription":"Verify that user can add Twitter Link in Settings Page.",
+      "testObjectives":"Validate user can add Twitter Link.",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate user can add Twitter Link.",
+          "class": "SettingsActions",
+          "method": "AddTwitterLink",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+    {
+      "testId":"AS08",
+      "testName": "Verify that user can add Website Link.",
+      "testDescription":"Verify that user can add Website Link in Settings Page.",
+      "testObjectives":"Validate user can add Website Link.",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate user can add Website Link.",
+          "class": "SettingsActions",
+          "method": "AddWebsiteLink",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+    {
+      "testId":"AS09",
+      "testName": "Verify that user can add Youtube Link.",
+      "testDescription":"Verify that user can add Youtube Link in Settings Page.",
+      "testObjectives":"Validate user can add Youtube Link.",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate user can add Youtube Link.",
+          "class": "SettingsActions",
+          "method": "AddYoutubeLink",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+    {
+      "testId":"AS09",
+      "testName": "Verify that user can Upload Image.",
+      "testDescription":"Verify that user can Upload Image in Settings Page.",
+      "testObjectives":"Validate user can aUpload Image.",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate user can Upload Image.",
+          "class": "SettingsActions",
+          "method": "UploadImage",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "suiteName": "Agency Appointments Test",
+  "suiteDescription": "Test cases to verify Date header on Agency Appointments Page",
+  "testCases": [
+    {
+      "testId":"AAO1",
+      "testName": "Verify Date header is available on Agency Appointments Page",
+      "testDescription":"Validate Date Header on Agency Appointments Page",
+      "testObjectives":"Validate Date Header",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate Date Header",
+          "class": "AppointmentsActions",
+          "method": "AgencyVerifyAppointmentsTitle",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "suiteName": "Log On Test",
+  "suiteDescription": "Test cases collection for Log On feature",
+  "testCases": [
+    {
+      "testId":"LO1",
+      "testName": "Valid logon credentials with Email",
+      "testDescription":"Validate business logic of Log On page",
+      "testObjectives":"Login successful",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Login by standard_user",
+          "class": "LoginAction",
+          "method": "login",
+          "parameters": {
+            "user": "ashar@immobelgium.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+
+    {
+      "testId":"LO2",
+      "testName": "Valid logon credentials with Gmail",
+      "testDescription":"Validate business logic of Log On page",
+      "testObjectives":"Login successful",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Login by standard_user",
+          "class": "LoginAction",
+          "method": "GmailLoginPage",
+          "parameters": {
+            "gmail": "ashar@immobelgium.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+
+    {
+      "testId":"LO3",
+      "testName": "Valid logon credentials with Facebook",
+      "testDescription":"Validate business logic of Log On page",
+      "testObjectives":"Login successful",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Login by standard_user",
+          "class": "LoginAction",
+          "method": "FacebookLoginPage",
+          "parameters": {
+            "facebookuser": "livepersonmarch1991@hotmail.com",
+            "password": "Taktak123@"
+
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "suiteName": "Login-out Test",
+  "suiteDescription": "Test cases collection for Login Logout feature",
+
+  "testCases": [
+    {
+      "testId":"Login-Logout-O1",
+      "testName": "User can login logout successfully.",
+      "testDescription":"Validate user can login then logout successfully.",
+      "testObjectives":"User can login logout successfully.",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "User can successfully Login-out successfully.",
+          "class": "LoginLogoutAction",
+          "method": "loginlogout",
+          "parameters": {
+            "user": "ashar@immobelgium.be",
+            "password": "Testing@12345"
+
+          }
+
+        }
+      ]
+    }
+  ]
+}

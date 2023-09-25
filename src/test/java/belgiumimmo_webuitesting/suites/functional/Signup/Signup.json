@@ -1,0 +1,65 @@
+{
+  "suiteName": "Sign-up Test",
+  "suiteDescription": "Test cases collection for Sign-up feature",
+  "testCases": [
+    {
+      "testId":"Sign-up-O1",
+      "testName": "New User can Sign-up with Email",
+      "testDescription":"Validate business logic on Sign-up page",
+      "testObjectives":"Email Sign-up successful",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Sign-up with Email by standard_user",
+          "class": "SignupAction",
+          "method": "emailsignup",
+          "parameters": {
+            "user": "ashar@immobelgium.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+
+    {
+      "testId":"Sign-up-O2",
+      "testName": "New User can Sign-up with Facebook",
+      "testDescription":"Validate business logic on Sign-up page",
+      "testObjectives":"Facebook Sign-up successful",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Sign-up with Facebook by standard_user",
+          "class": "SignupAction",
+          "method": "facebooksignup",
+          "parameters": {
+            "user": "ashar@immobelgium.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+
+    {
+      "testId":"Sign-up-O3",
+      "testName": "New User can Sign-up with Google",
+      "testDescription":"Validate business logic on Sign-up page",
+      "testObjectives":"Google Sign-up successful",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Sign-up with Google by standard_user",
+          "class": "SignupAction",
+          "method": "googlesignup",
+          "parameters": {
+            "user": "ashar@immobelgium.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    }
+  ]
+}

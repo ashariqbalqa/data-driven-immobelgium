@@ -1,0 +1,121 @@
+{
+  "suiteName": "Agency Appointments Test",
+  "suiteDescription": "Test cases to verify Date header on Agency Appointments Page",
+  "testCases": [
+
+    {
+      "testId":"AAO1",
+      "testName": "Verify Date Appontiments Page is available on Agency Appointments Page",
+      "testDescription":"Validate Appontiments PageHeader on Agency Appointments Page",
+      "testObjectives":"Validate Appontiments PageHeader",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate Appontiments Page Header",
+          "class": "AppointmentsActions",
+          "method": "AgencyVerifyAppointmentsTitle",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+    {
+      "testId":"AAO2",
+      "testName": "Verify Date header is available on Agency Appointments Page",
+      "testDescription":"Validate Date Header on Agency Appointments Page",
+      "testObjectives":"Validate Date Header",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate Date Header",
+          "class": "AppointmentsActions",
+          "method": "AgencyVerifyAppointmentsDate",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+    {
+      "testId":"AAO3",
+      "testName": "Verify Email header is available on Agency Appointments Page",
+      "testDescription":"Validate Email Header on Agency Appointments Page",
+      "testObjectives":"Validate Email Header",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate Email Header",
+          "class": "AppointmentsActions",
+          "method": "AgencyVerifyAppointmentsEmail",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+    {
+      "testId":"AAO4",
+      "testName": "Verify Name header is available on Agency Appointments Page",
+      "testDescription":"Validate Name Header on Agency Appointments Page",
+      "testObjectives":"Validate Name Header",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate Name Header",
+          "class": "AppointmentsActions",
+          "method": "AgencyVerifyAppointmentsName",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+    {
+      "testId":"AAO5",
+      "testName": "Verify Phone header is available on Agency Appointments Page",
+      "testDescription":"Validate Phone Header on Agency Appointments Page",
+      "testObjectives":"Validate Phone Header",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate Phone Header",
+          "class": "AppointmentsActions",
+          "method": "AgencyVerifyAppointmentsPhone",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    },
+    {
+      "testId":"AAO6",
+      "testName": "Verify Status header is available on Agency Appointments Page",
+      "testDescription":"Validate Status Header on Agency Appointments Page",
+      "testObjectives":"Validate Status Header",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Validate Status Header",
+          "class": "AppointmentsActions",
+          "method": "AgencyVerifyAppointmentsStatus",
+          "parameters": {
+            "agencyuser": "franky@century21immonewcnoc.be",
+            "password": "Testing@12345"
+
+          }
+        }
+      ]
+    }
+  ]
+}
