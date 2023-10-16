@@ -125,7 +125,7 @@
       ]
     },
     {
-      "testId":"SSO9",
+      "testId":"SO9",
       "testName": "Enter Plot Size Min and Max Value Sale",
       "testDescription":"Validate that user can Enter Min and Max values of Plot Size",
       "testObjectives":"Enter Min and Max values of Plot Size",
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "testId":"SS10",
+      "testId":"S10",
       "testName": "Select Property Condition Sale",
       "testDescription":"Validate that user can Select Property Condition",
       "testObjectives":"Select Property Condition",
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "testId":"SS11",
+      "testId":"S11",
       "testName": "Enter Property Construction Year",
       "testDescription":"Validate that user can Enter Property Construction Year",
       "testObjectives":"Enter Property Construction Year",
@@ -170,7 +170,7 @@
       ]
     },
     {
-      "testId":"SS12",
+      "testId":"S12",
       "testName": "Select Property Status is immediately Available",
       "testDescription":"Validate that user can Select Choices in Select Property Status",
       "testObjectives":"Select Property Status is immediately Available",
@@ -180,6 +180,142 @@
           "name": "Select Property Status is immediately Available",
           "class": "Search",
           "method": "SelectPropertyStatusIsImmediatelyAvailable"
+
+        }
+      ]
+    },
+
+    {
+      "testId":"S13",
+      "testName": "Enter Min and Max Price For Rent",
+      "testDescription":"Validate that user can enter Min and max price For Rent",
+      "testObjectives":"Enter max and min price",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Enter Min Value 0 and max value 100000",
+          "class": "Search",
+          "method": "EnterMinAndMaxPriceForRent"
+
+        }
+      ]
+    },
+    {
+      "testId":"S14",
+      "testName": "Enter Number of Rooms For Rent",
+      "testDescription":"Validate that user can Select Number of Rooms 3",
+      "testObjectives":"Select Number of Rooms 3",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Number of Rooms Set to 3",
+          "class": "Search",
+          "method": "EnterNumberOfRoomsToThreeRent"
+
+        }
+      ]
+    },
+    {
+      "testId":"S15",
+      "testName": "Enter Number of Bathrooms For Rent",
+      "testDescription":"Validate that user can Select Number of Rooms 2",
+      "testObjectives":"Select Number of Rooms 2",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Number of Rooms Set to 2",
+          "class": "Search",
+          "method": "EnterNumberOfRoomsToTwoRent"
+
+        }
+      ]
+    },
+    {
+      "testId":"S16",
+      "testName": "Select EPC Label A Rent",
+      "testDescription":"Validate that user can Select EPC Label to A",
+      "testObjectives":"Select EPC Label to A",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "EPC Label Select to A",
+          "class": "Search",
+          "method": "SelectEPCLabelARent"
+
+        }
+      ]
+    },
+    {
+      "testId":"S17",
+      "testName": "Enter Living Area Min and Max Value Rent",
+      "testDescription":"Validate that user can Enter Min and Max values of Living Area",
+      "testObjectives":"Enter Min and Max values of Living Area",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Min and Max values of Living Area for Rent",
+          "class": "Search",
+          "method": "EnterMinMaxValuesLivingAreaRent"
+
+        }
+      ]
+    },
+    {
+      "testId":"S18",
+      "testName": "Enter Plot Size Min and Max Value Rent",
+      "testDescription":"Validate that user can Enter Min and Max values of Plot Size",
+      "testObjectives":"Enter Min and Max values of Plot Size",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Min and Max values of LPlot Size for Rent",
+          "class": "Search",
+          "method": "EnterMinMaxValuesPlotSizeRent"
+
+        }
+      ]
+    },
+    {
+      "testId":"S19",
+      "testName": "Select Property Condition Rent",
+      "testDescription":"Validate that user can Select Property Condition",
+      "testObjectives":"Select Property Condition",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Condition",
+          "class": "Search",
+          "method": "SelectPropertyConditionRent"
+
+        }
+      ]
+    },
+    {
+      "testId":"S20",
+      "testName": "Enter Property Construction Year Rent",
+      "testDescription":"Validate that user can Enter Property Construction Year",
+      "testObjectives":"Enter Property Construction Year",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Enter Property Construction Year",
+          "class": "Search",
+          "method": "EnterPropertyConstructionYearRent"
+
+        }
+      ]
+    },
+    {
+      "testId":"S21",
+      "testName": "Select Property Status is immediately Available Rent",
+      "testDescription":"Validate that user can Select Choices in Select Property Status",
+      "testObjectives":"Select Property Status is immediately Available",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Status is immediately Available",
+          "class": "Search",
+          "method": "SelectPropertyStatusIsImmediatelyAvailableRent"
 
         }
       ]
