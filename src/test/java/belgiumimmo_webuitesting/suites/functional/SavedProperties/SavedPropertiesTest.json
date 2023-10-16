@@ -1,0 +1,158 @@
+{
+  "suiteName": "Saved Properties Test",
+  "suiteDescription": "Test cases collection for Saved Properties Feature in Search Engine",
+  "testCases": [
+    {
+      "testId":"SPO1",
+      "testName": "Verify Page Title",
+      "testDescription":"Validate Page Title",
+      "testObjectives":"Verify Page Title",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Verify Page Title",
+          "class": "SavedProperty",
+          "method": "PropertyPageTitle"
+
+        }
+      ]
+    },
+
+    {
+      "testId":"SPO2",
+      "testName": "Click on Showing All drop-down",
+      "testDescription":"Click on Showing All Drop Down",
+      "testObjectives":"Check user can click on Showing All Drop Down",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Showing all drop downFunctionality",
+          "class": "SavedProperty",
+          "method": "DropDownShowingAll"
+
+        }
+      ]
+    },
+
+    {
+      "testId":"SPO3",
+      "testName": "Click on Sorted By Date drop-down",
+      "testDescription":"Click on Sorted By Date Drop Down",
+      "testObjectives":"Check user can click on Sorted By Date Drop Down",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Showing Sorted By Date downFunctionality",
+          "class": "SavedProperty",
+          "method": "DropDownSorted By Date"
+
+        }
+      ]
+    },
+    {
+      "testId":"LO4",
+      "testName": "Update Saved Search Name",
+      "testDescription":"Validate that user can update Saved Search",
+      "testObjectives":"Update Saved Serach Functionality is working",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Update Saved Search Name",
+          "class": "SavedSearches",
+          "method": "UpdateSavedSearchName"
+
+        }
+      ]
+    },
+    {
+      "testId":"LO5",
+      "testName": "Subscription Select to Daily",
+      "testDescription":"Validate that user can Select Daily from drop-down",
+      "testObjectives":"Update Subscription to Daily",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Update Subscription to Daily",
+          "class": "SavedSearches",
+          "method": "UpdateSubscriptionToDaily"
+
+        }
+      ]
+    },
+    {
+      "testId":"LO5",
+      "testName": "Subscription Select to Daily",
+      "testDescription":"Validate that user can Select Daily from drop-down",
+      "testObjectives":"Update Subscription to Daily",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Update Subscription to Daily",
+          "class": "SavedSearches",
+          "method": "UpdateSubscriptionToDaily"
+
+        }
+      ]
+    },
+    {
+      "testId":"LO6",
+      "testName": "Subscription off Select to Daily",
+      "testDescription":"Validate that user can turn off Subscription",
+      "testObjectives":"Disable Subscription",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Disable Subscription",
+          "class": "SavedSearches",
+          "method": "DisableSubscriptionButton"
+
+        }
+      ]
+    },
+    {
+      "testId":"LO7",
+      "testName": "Subscription off Select to Daily",
+      "testDescription":"Validate that user can turn off Subscription",
+      "testObjectives":"Disable Subscription",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Disable Subscription",
+          "class": "SavedSearches",
+          "method": "DisableSubscriptionButton"
+
+        }
+      ]
+    },
+    {
+      "testId":"LO8",
+      "testName": "Cancel Button Functionality",
+      "testDescription":"Validate that user can click on cancel button on Edit Property Pop-up",
+      "testObjectives":"Cancel Button is Clickable",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Click on Cancel Button",
+          "class": "SavedSearches",
+          "method": "ClickCancelButton"
+
+        }
+      ]
+    },
+    {
+      "testId":"LO9",
+      "testName": "Delete Button Functionality",
+      "testDescription":"Validate that user can click on delete button on Edit Property Pop-up",
+      "testObjectives":"Delete Button is Clickable",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Click on Delete Button",
+          "class": "SavedSearches",
+          "method": "ClickDeleteButton"
+
+        }
+      ]
+    }
+  ]
+}

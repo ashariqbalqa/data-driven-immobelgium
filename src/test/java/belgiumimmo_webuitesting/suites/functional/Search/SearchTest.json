@@ -1,0 +1,188 @@
+{
+  "suiteName": "Searches and Filters Test",
+  "suiteDescription": "Test cases collection for Searches Feature in Search Engine",
+  "testCases": [
+    {
+      "testId":"SO1",
+      "testName": "Verify Search Bar is working",
+      "testDescription":"Enter Property Name in Search Bar and Click Search Button",
+      "testObjectives":"Verify Search Bar and button functionality",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Verify Search Bar and Button Functionality",
+          "class": "Search",
+          "method": "SearchBar"
+
+        }
+      ]
+    },
+
+    {
+      "testId":"SO2",
+      "testName": "Filter Button Click and Close",
+      "testDescription":"Check the functionality of Filter and Close Buton",
+      "testObjectives":"Verify functionality of Filter and Close Buton",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Verify Search Bar and Button Functionality",
+          "class": "Search",
+          "method": "ClickCloseFilterButton"
+
+        }
+      ]
+    },
+
+    {
+      "testId":"SO3",
+      "testName": "Filter Button-> Click on Show Button",
+      "testDescription":"Check the functionality of Show Button in Filters",
+      "testObjectives":"Verify functionality of Show Button in Filters",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Verify Show button Functionality",
+          "class": "Search",
+          "method": "ClickShowButton"
+
+        }
+      ]
+    },
+    {
+      "testId":"SO4",
+      "testName": "Enter Min and Max Price For Sale",
+      "testDescription":"Validate that user can enter Min and max price For Sale",
+      "testObjectives":"Enter max and min price",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Enter Min Value 0 and max value 100000",
+          "class": "Search",
+          "method": "EnterMinAndMaxPriceForSale"
+
+        }
+      ]
+    },
+    {
+      "testId":"SO5",
+      "testName": "Enter Number of Rooms For Sale",
+      "testDescription":"Validate that user can Select Number of Rooms 3",
+      "testObjectives":"Select Number of Rooms 3",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Number of Rooms Set to 3",
+          "class": "Search",
+          "method": "EnterNumberOfRoomsToThree"
+
+        }
+      ]
+    },
+    {
+      "testId":"SO6",
+      "testName": "Enter Number of Bathrooms For Sale",
+      "testDescription":"Validate that user can Select Number of Rooms 2",
+      "testObjectives":"Select Number of Rooms 2",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Number of Rooms Set to 2",
+          "class": "Search",
+          "method": "EnterNumberOfRoomsToTwo"
+
+        }
+      ]
+    },
+    {
+      "testId":"SO7",
+      "testName": "Select EPC Label A Sale",
+      "testDescription":"Validate that user can Select EPC Label to A",
+      "testObjectives":"Select EPC Label to A",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "EPC Label Select to A",
+          "class": "Search",
+          "method": "SelectEPCLabelA"
+
+        }
+      ]
+    },
+    {
+      "testId":"SO8",
+      "testName": "Enter Living Area Min and Max Value Sale",
+      "testDescription":"Validate that user can Enter Min and Max values of Living Area",
+      "testObjectives":"Enter Min and Max values of Living Area",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Min and Max values of Living Area for Sale",
+          "class": "Search",
+          "method": "EnterMinMaxValuesLivingArea"
+
+        }
+      ]
+    },
+    {
+      "testId":"SSO9",
+      "testName": "Enter Plot Size Min and Max Value Sale",
+      "testDescription":"Validate that user can Enter Min and Max values of Plot Size",
+      "testObjectives":"Enter Min and Max values of Plot Size",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Min and Max values of LPlot Size for Sale",
+          "class": "Search",
+          "method": "EnterMinMaxValuesPlotSize"
+
+        }
+      ]
+    },
+    {
+      "testId":"SS10",
+      "testName": "Select Property Condition Sale",
+      "testDescription":"Validate that user can Select Property Condition",
+      "testObjectives":"Select Property Condition",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Condition",
+          "class": "Search",
+          "method": "SelectPropertyConditionSale"
+
+        }
+      ]
+    },
+    {
+      "testId":"SS11",
+      "testName": "Enter Property Construction Year",
+      "testDescription":"Validate that user can Enter Property Construction Year",
+      "testObjectives":"Enter Property Construction Year",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Enter Property Construction Year",
+          "class": "Search",
+          "method": "EnterPropertyConstructionYear"
+
+        }
+      ]
+    },
+    {
+      "testId":"SS12",
+      "testName": "Select Property Status is immediately Available",
+      "testDescription":"Validate that user can Select Choices in Select Property Status",
+      "testObjectives":"Select Property Status is immediately Available",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Status is immediately Available",
+          "class": "Search",
+          "method": "SelectPropertyStatusIsImmediatelyAvailable"
+
+        }
+      ]
+    }
+  ]
+}
