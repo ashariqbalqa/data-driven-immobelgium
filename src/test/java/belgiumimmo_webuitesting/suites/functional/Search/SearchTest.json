@@ -319,6 +319,397 @@
 
         }
       ]
+    },
+    {
+      "testId":"S22",
+      "testName": "Select Property Type House",
+      "testDescription":"Validate that user can Select Property Type House",
+      "testObjectives":"Select Property Type House",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Type House",
+          "class": "Search",
+          "method": "SelectPropertyTypeHouse"
+
+        }
+      ]
+    },
+    {
+      "testId":"S23",
+      "testName": "Select Property Type House",
+      "testDescription":"Validate that user can Select Property Type House",
+      "testObjectives":"Select Property Type House",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Type House",
+          "class": "Search",
+          "method": "SelectPropertyTypeHouse"
+
+        }
+      ]
+    },
+    {
+      "testId":"S24",
+      "testName": "Select Property Sub-Type Bunglow",
+      "testDescription":"Validate that user can Select Property-SubType to Bunglow",
+      "testObjectives":"Select Property Sub-Type to Bunglow",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to Bunglow",
+          "class": "Search",
+          "method": "SelectPropertySubTypeBunglow"
+
+        }
+      ]
+    },
+    {
+      "testId":"S25",
+      "testName": "Select Property Sub-Type Chalet",
+      "testDescription":"Validate that user can Select Property-SubType to Chalet",
+      "testObjectives":"Select Property Sub-Type to Chalet",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to Chalet",
+          "class": "Search",
+          "method": "SelectPropertySubTypeChalet"
+
+        }
+      ]
+    },
+    {
+      "testId":"S25",
+      "testName": "Select Property Sub-Type Castle",
+      "testDescription":"Validate that user can Select Property-SubType to Castle",
+      "testObjectives":"Select Property Sub-Type to Castle",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to Castle",
+          "class": "Search",
+          "method": "SelectPropertySubTypeCastle"
+
+        }
+      ]
+    },
+    {
+      "testId":"S26",
+      "testName": "Select Property Sub-Type Farmhouse",
+      "testDescription":"Validate that user can Select Property-SubType to Farmhouse",
+      "testObjectives":"Select Property Sub-Type to Farmhouse",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to Farmhouse",
+          "class": "Search",
+          "method": "SelectPropertySubTypeFarmhouse"
+
+        }
+      ]
+    },
+    {
+      "testId":"S27",
+      "testName": "Select Property Sub-Type CountryHouse",
+      "testDescription":"Validate that user can Select Property-SubType to CountryHouse",
+      "testObjectives":"Select Property Sub-Type to CountryHouse",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to CountryHouse",
+          "class": "Search",
+          "method": "SelectPropertySubTypeCountryHouse"
+
+        }
+      ]
+    },
+    {
+      "testId":"S28",
+      "testName": "Select Property Sub-Type ExceptionalProperty",
+      "testDescription":"Validate that user can Select Property-SubType to ExceptionalProperty",
+      "testObjectives":"Select Property Sub-Type to ExceptionalProperty",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to ExceptionalProperty",
+          "class": "Search",
+          "method": "SelectPropertySubTypeExceptionalProperty"
+
+        }
+      ]
+    },
+    {
+      "testId":"S29",
+      "testName": "Select Property Sub-Type ApartmentBlock",
+      "testDescription":"Validate that user can Select Property-SubType to ApartmentBlock",
+      "testObjectives":"Select Property Sub-Type to ApartmentBlock",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to ApartmentBlock",
+          "class": "Search",
+          "method": "SelectPropertySubTypeApartmentBlock"
+
+        }
+      ]
+    },
+    {
+      "testId":"S30",
+      "testName": "Select Property Sub-Type MixedUseBuilding",
+      "testDescription":"Validate that user can Select Property-SubType to MixedUseBuilding",
+      "testObjectives":"Select Property Sub-Type to MixedUseBuilding",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to MixedUseBuilding",
+          "class": "Search",
+          "method": "SelectPropertySubTypeMixedUseBuilding"
+
+        }
+      ]
+    },
+    {
+      "testId":"S31",
+      "testName": "Select Property Sub-Type TownHouse",
+      "testDescription":"Validate that user can Select Property-SubType to TownHouse",
+      "testObjectives":"Select Property Sub-Type to TownHouse",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to TownHouse",
+          "class": "Search",
+          "method": "SelectPropertySubTypeTownHouse"
+
+        }
+      ]
+    },
+    {
+      "testId":"S32",
+      "testName": "Select Property Sub-Type Mansion",
+      "testDescription":"Validate that user can Select Property-SubType to Mansion",
+      "testObjectives":"Select Property Sub-Type to Mansion",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to Mansion",
+          "class": "Search",
+          "method": "SelectPropertySubTypeMansion"
+
+        }
+      ]
+    },
+    {
+      "testId":"S33",
+      "testName": "Select Property Sub-Type Villa",
+      "testDescription":"Validate that user can Select Property-SubType to Villa",
+      "testObjectives":"Select Property Sub-Type to Villa",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to Villa",
+          "class": "Search",
+          "method": "SelectPropertySubTypeVilla"
+
+        }
+      ]
+    },
+    {
+      "testId":"S34",
+      "testName": "Select Property Sub-Type OtherProperties",
+      "testDescription":"Validate that user can Select Property-SubType to OtherProperties",
+      "testObjectives":"Select Property Sub-Type to OtherProperties",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to OtherProperties",
+          "class": "Search",
+          "method": "SelectPropertySubTypeOtherProperties"
+
+        }
+      ]
+    },
+    {
+      "testId":"S35",
+      "testName": "Select Property Sub-Type ManorHouse",
+      "testDescription":"Validate that user can Select Property-SubType to ManorHouse",
+      "testObjectives":"Select Property Sub-Type to ManorHouse",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to ManorHouse",
+          "class": "Search",
+          "method": "SelectPropertySubTypeManorHouse"
+
+        }
+      ]
+    },
+    {
+      "testId":"S36",
+      "testName": "Select Property Sub-Type Pavilion",
+      "testDescription":"Validate that user can Select Property-SubType to Pavilion",
+      "testObjectives":"Select Property Sub-Type to Pavilion",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to Pavilion",
+          "class": "Search",
+          "method": "SelectPropertySubTypePavilion"
+
+        }
+      ]
+    },
+    {
+      "testId":"S37",
+      "testName": "Un-Select House, Select Apartment and Select Apartment Sub-Type Ground Floor Apartment",
+      "testDescription":"Un-Select House, Select Apartment and Select Apartment Sub-Type Ground Floor Apartment",
+      "testObjectives":"Select Property Sub-Type to Ground Floor Apartment",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to Ground Floor Apartment",
+          "class": "Search",
+          "method": "SelectPropertySubGroundFloorApartment"
+
+        }
+      ]
+    },
+    {
+      "testId":"S38",
+      "testName": "Un-Select House, Select Apartment and Select Apartment Sub-Type Duplex",
+      "testDescription":"Un-Select House, Select Apartment and Select Apartment Duplex",
+      "testObjectives":"Select Property Sub-Type to Duplex",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to Duplex",
+          "class": "Search",
+          "method": "SelectPropertySubDuplex"
+
+        }
+      ]
+    },
+    {
+      "testId":"S39",
+      "testName": "Un-Select House, Select Apartment and Select Apartment Sub-Type Triplex",
+      "testDescription":"Un-Select House, Select Apartment and Select Apartment Triplex",
+      "testObjectives":"Select Property Sub-Type to Triplex",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to Triplex",
+          "class": "Search",
+          "method": "SelectPropertySubTriplex"
+
+        }
+      ]
+    },
+    {
+      "testId":"S40",
+      "testName": "Un-Select House, Select Apartment and Select Apartment Sub-Type Studio",
+      "testDescription":"Un-Select House, Select Apartment and Select Apartment Studio",
+      "testObjectives":"Select Property Sub-Type to Studio",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to Studio",
+          "class": "Search",
+          "method": "SelectPropertySubStudio"
+
+        }
+      ]
+    },
+    {
+      "testId":"S41",
+      "testName": "Un-Select House, Select Apartment and Select Apartment Sub-Type Penthouse",
+      "testDescription":"Un-Select House, Select Apartment and Select Apartment Penthouse",
+      "testObjectives":"Select Property Sub-Type to Penthouse",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to Penthouse",
+          "class": "Search",
+          "method": "SelectPropertySubPenthouse"
+
+        }
+      ]
+    },
+    {
+      "testId":"S42",
+      "testName": "Un-Select House, Select Apartment and Select Apartment Sub-Type Loft",
+      "testDescription":"Un-Select House, Select Apartment and Select Apartment Loft",
+      "testObjectives":"Select Property Sub-Type to Loft",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to Loft",
+          "class": "Search",
+          "method": "SelectPropertySubLoft"
+
+        }
+      ]
+    },
+    {
+      "testId":"S43",
+      "testName": "Un-Select House, Select Apartment and Select Apartment Sub-Type Kot",
+      "testDescription":"Un-Select House, Select Apartment and Select Apartment Kot",
+      "testObjectives":"Select Property Sub-Type to Kot",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to Kot",
+          "class": "Search",
+          "method": "SelectPropertySubKot"
+
+        }
+      ]
+    },
+    {
+      "testId":"S44",
+      "testName": "Un-Select House, Select Apartment and Select Apartment Sub-Type Service Flat",
+      "testDescription":"Un-Select House, Select Apartment and Select Apartment Service Flat",
+      "testObjectives":"Select Property Sub-Type to Service Flat",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to Service Flat",
+          "class": "Search",
+          "method": "SelectPropertySubServiceFlat"
+
+        }
+      ]
+    },
+    {
+      "testId":"S45",
+      "testName": "Un-Select House, Select Apartment and Select Apartment Sub-Type Service Flat",
+      "testDescription":"Un-Select House, Select Apartment and Select Apartment Service Flat",
+      "testObjectives":"Select Property Sub-Type to Service Flat",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Property Sub-Type to Service Flat",
+          "class": "Search",
+          "method": "SelectPropertySubServiceFlat"
+
+        }
+      ]
+    },
+    {
+      "testId":"S46",
+      "testName": "Show Less Sub-Type button functionality Test",
+      "testDescription":"Show Less Sub-Type button functionality Test. Click on button and then verify no subtype is shown",
+      "testObjectives":"Show Less Sub-Type button functionality Test",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Show Less Sub-Type button functionality Test",
+          "class": "Search",
+          "method": "ClickOnShowLessSubType"
+
+        }
+      ]
     }
+
   ]
 }
