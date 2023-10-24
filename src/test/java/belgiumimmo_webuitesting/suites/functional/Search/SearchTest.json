@@ -709,7 +709,426 @@
 
         }
       ]
-    }
+    },
+    {
+    "testId":"S47",
+    "testName": "Select Garden and Garden Orientation North",
+    "testDescription":"Select Garden and Garden Orientation North",
+    "testObjectives":"Select Garden and Garden Orientation North",
+    "note": "",
+    "testSteps": [
+      {
+        "name": "Select Garden and Garden Orientation North",
+        "class": "Search",
+        "method": "SelectGardenandOrientationNorth"
 
+      }
+    ]
+    },
+    {
+      "testId":"S48",
+      "testName": "Select Garden Orientation East",
+      "testDescription":"Select Garden Orientation East",
+      "testObjectives":"Select Garden Orientation East",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Garden Orientation East",
+          "class": "Search",
+          "method": "SelectGardenOrientationEast"
+
+        }
+      ]
+    },
+    {
+      "testId":"S49",
+      "testName": "Select Garden Orientation SouthEast",
+      "testDescription":"Select Garden Orientation SouthEast",
+      "testObjectives":"Select Garden Orientation SouthEast",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Garden Orientation SouthEast",
+          "class": "Search",
+          "method": "SelectGardenOrientationSouthEast"
+
+        }
+      ]
+    },
+    {
+      "testId":"S50",
+      "testName": "Select Garden Orientation South",
+      "testDescription":"Select Garden Orientation South",
+      "testObjectives":"Select Garden Orientation South",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Garden Orientation South",
+          "class": "Search",
+          "method": "SelectGardenOrientationSouth"
+
+        }
+      ]
+    },
+    {
+      "testId":"S51",
+      "testName": "Select Garden Orientation SouthWest",
+      "testDescription":"Select Garden Orientation SouthWest",
+      "testObjectives":"Select Garden Orientation SouthWest",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Garden Orientation SouthWest",
+          "class": "Search",
+          "method": "SelectGardenOrientationSouthWest"
+
+        }
+      ]
+    },
+    {
+      "testId":"S52",
+      "testName": "Select Garden Orientation West",
+      "testDescription":"Select Garden Orientation West",
+      "testObjectives":"Select Garden Orientation West",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Garden Orientation West",
+          "class": "Search",
+          "method": "SelectGardenOrientationWest"
+
+        }
+      ]
+    },
+    {
+      "testId":"S53",
+      "testName": "Select Garden Orientation NorthWest",
+      "testDescription":"Select Garden Orientation NorthWest",
+      "testObjectives":"Select Garden Orientation NorthWest",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Garden Orientation NorthWest",
+          "class": "Search",
+          "method": "SelectGardenOrientationNorthWest"
+
+        }
+      ]
+    },
+    {
+      "testId":"S54",
+      "testName": "Select Garden Surface 25m2",
+      "testDescription":"Select Garden Surface 25m2",
+      "testObjectives":"Select Garden Surface 25m2",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Garden Surface 25m2",
+          "class": "Search",
+          "method": "SelectGardenSurface25m2"
+
+        }
+      ]
+    },
+    {
+      "testId":"S55",
+      "testName": "Select Garden Surface 50m2",
+      "testDescription":"Select Garden Surface 50m2",
+      "testObjectives":"Select Garden Surface 50m2",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Garden Surface 50m2",
+          "class": "Search",
+          "method": "SelectGardenSurface50m2"
+
+        }
+      ]
+    },
+    {
+      "testId":"S56",
+      "testName": "Select Garden Surface 100m2",
+      "testDescription":"Select Garden Surface 100m2",
+      "testObjectives":"Select Garden Surface 100m2",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Garden Surface 100m2",
+          "class": "Search",
+          "method": "SelectGardenSurface100m2"
+
+        }
+      ]
+    },
+    {
+      "testId":"S57",
+      "testName": "Select Garden Surface 150m2",
+      "testDescription":"Select Garden Surface 150m2",
+      "testObjectives":"Select Garden Surface 150m2",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Garden Surface 150m2",
+          "class": "Search",
+          "method": "SelectGardenSurface150m2"
+
+        }
+      ]
+    },
+    {
+      "testId":"S58",
+      "testName": "Select Garden Surface 250m2",
+      "testDescription":"Select Garden Surface 250m2",
+      "testObjectives":"Select Garden Surface 250m2",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Garden Surface 250m2",
+          "class": "Search",
+          "method": "SelectGardenSurface250m2"
+
+        }
+      ]
+    },
+    {
+      "testId":"S59",
+      "testName": "Select Garden Surface 500m2",
+      "testDescription":"Select Garden Surface 500m2",
+      "testObjectives":"Select Garden Surface 500m2",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Garden Surface 500m2",
+          "class": "Search",
+          "method": "SelectGardenSurface500m2"
+
+        }
+      ]
+    },
+    {
+      "testId":"S60",
+      "testName": "Select Balcony and Orientation North",
+      "testDescription":"Select Balcony Orientation North",
+      "testObjectives":"Select Balcony Orientation North",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Balcony Orientation North",
+          "class": "Search",
+          "method": "SelectBalconyOrientationNorth"
+
+        }
+      ]
+    },
+    {
+      "testId":"S61",
+      "testName": "Select Balcony and Orientation NorthEast",
+      "testDescription":"Select Balcony Orientation NorthEast",
+      "testObjectives":"Select Balcony Orientation NorthEast",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Balcony Orientation NorthEast",
+          "class": "Search",
+          "method": "SelectBalconyOrientationNorthEast"
+
+        }
+      ]
+    },
+    {
+      "testId":"S62",
+      "testName": "Select Balcony and Orientation East",
+      "testDescription":"Select Balcony Orientation East",
+      "testObjectives":"Select Balcony Orientation East",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Balcony Orientation East",
+          "class": "Search",
+          "method": "SelectBalconyOrientationEast"
+
+        }
+      ]
+    },
+    {
+      "testId":"S63",
+      "testName": "Select Balcony and Orientation SouthEast",
+      "testDescription":"Select Balcony Orientation SouthEast",
+      "testObjectives":"Select Balcony Orientation SouthEast",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Balcony Orientation SouthEast",
+          "class": "Search",
+          "method": "SelectBalconyOrientationSouthEast"
+
+        }
+      ]
+    },
+    {
+      "testId":"S64",
+      "testName": "Select Balcony and Orientation South",
+      "testDescription":"Select Balcony Orientation South",
+      "testObjectives":"Select Balcony Orientation South",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Balcony Orientation South",
+          "class": "Search",
+          "method": "SelectBalconyOrientationSouth"
+
+        }
+      ]
+    },
+    {
+      "testId":"S65",
+      "testName": "Select Balcony and Orientation SouthWest",
+      "testDescription":"Select Balcony Orientation SouthWest",
+      "testObjectives":"Select Balcony Orientation SouthWest",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Balcony Orientation SouthWest",
+          "class": "Search",
+          "method": "SelectBalconyOrientationSouthWest"
+
+        }
+      ]
+    },
+    {
+      "testId":"S66",
+      "testName": "Select Balcony and Orientation West",
+      "testDescription":"Select Balcony Orientation West",
+      "testObjectives":"Select Balcony Orientation West",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Balcony Orientation West",
+          "class": "Search",
+          "method": "SelectBalconyOrientationWest"
+
+        }
+      ]
+    },
+    {
+      "testId":"S67",
+      "testName": "Select Balcony and Orientation NorthWest",
+      "testDescription":"Select Balcony Orientation NorthWest",
+      "testObjectives":"Select Balcony Orientation NorthWest",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Balcony Orientation NorthWest",
+          "class": "Search",
+          "method": "SelectBalconyOrientationNorthWest"
+
+        }
+      ]
+    },
+    {
+      "testId":"S68",
+      "testName": "Select Balcony Surface 25m2",
+      "testDescription":"Select Balcony Surface 25m2",
+      "testObjectives":"Select Balcony Surface 25m2",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Balcony Surface 25m2",
+          "class": "Search",
+          "method": "SelectBalconySurface25m2"
+
+        }
+      ]
+    },
+    {
+      "testId":"S69",
+      "testName": "Select Balcony Surface 50m2",
+      "testDescription":"Select Balcony Surface 50m2",
+      "testObjectives":"Select Balcony Surface 50m2",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Balcony Surface 50m2",
+          "class": "Search",
+          "method": "SelectBalconySurface50m2"
+
+        }
+      ]
+    },
+    {
+      "testId":"S70",
+      "testName": "Select Balcony Surface 100m2",
+      "testDescription":"Select Balcony Surface 100m2",
+      "testObjectives":"Select Balcony Surface 100m2",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Balcony Surface 100m2",
+          "class": "Search",
+          "method": "SelectBalconySurface100m2"
+
+        }
+      ]
+    },
+    {
+      "testId":"S71",
+      "testName": "Select Balcony Surface 150m2",
+      "testDescription":"Select Balcony Surface 150m2",
+      "testObjectives":"Select Balcony Surface 150m2",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Balcony Surface 150m2",
+          "class": "Search",
+          "method": "SelectBalconySurface150m2"
+
+        }
+      ]
+    },
+    {
+      "testId":"S72",
+      "testName": "Select Balcony Surface 250m2",
+      "testDescription":"Select Balcony Surface 250m2",
+      "testObjectives":"Select Balcony Surface 250m2",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Balcony Surface 250m2",
+          "class": "Search",
+          "method": "SelectBalconySurface250m2"
+
+        }
+      ]
+    },
+    {
+      "testId":"S73",
+      "testName": "Select Balcony Surface 500m2",
+      "testDescription":"Select Balcony Surface 500m2",
+      "testObjectives":"Select Balcony Surface 500m2",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Select Balcony Surface 500m2",
+          "class": "Search",
+          "method": "SelectBalconySurface500m2"
+
+        }
+      ]
+    },
+    {
+      "testId":"S74",
+      "testName": "Balcony Rest Button Test",
+      "testDescription":"Balcony Rest Button",
+      "testObjectives":"Balcony Rest Button",
+      "note": "",
+      "testSteps": [
+        {
+          "name": "Balcony Rest Button",
+          "class": "Search",
+          "method": "BalconyResetButton"
+
+        }
+      ]
+    }
   ]
 }

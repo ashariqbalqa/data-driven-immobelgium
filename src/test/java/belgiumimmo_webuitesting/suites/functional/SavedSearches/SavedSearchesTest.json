@@ -11,8 +11,8 @@
       "testSteps": [
         {
           "name": "Verify Page Title",
-          "class": "VerifyPageTitle",
-          "method": "PageTitle"
+          "class": "SavedSearches",
+          "method": "VerifyPageTitle"
 
         }
       ]
