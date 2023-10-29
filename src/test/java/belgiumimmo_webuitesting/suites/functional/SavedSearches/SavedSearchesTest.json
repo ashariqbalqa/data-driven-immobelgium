@@ -53,7 +53,7 @@
       "testId":"SSO4",
       "testName": "Update Saved Search Name",
       "testDescription":"Validate that user can update Saved Search",
-      "testObjectives":"Update Saved Serach Functionality is working",
+      "testObjectives":"Update Saved Search Functionality is working",
       "note": "",
       "testSteps": [
         {
@@ -79,32 +79,18 @@
         }
       ]
     },
-    {
-    "testId":"SSO5",
-    "testName": "Subscription Select to Daily",
-    "testDescription":"Validate that user can Select Daily from drop-down",
-    "testObjectives":"Update Subscription to Daily",
-    "note": "",
-    "testSteps": [
-      {
-        "name": "Update Subscription to Daily",
-        "class": "SavedSearches",
-        "method": "UpdateSubscriptionToDaily"
 
-        }
-      ]
-    },
     {
       "testId":"SSO6",
-      "testName": "Subscription off Select to Daily",
-      "testDescription":"Validate that user can turn off Subscription",
-      "testObjectives":"Disable Subscription",
+      "testName": "Subscription to Instant",
+      "testDescription":"Validate that user can select Subscription to Instant",
+      "testObjectives":"Subscription to Instant",
       "note": "",
       "testSteps": [
         {
-          "name": "Disable Subscription",
+          "name": "Subscription to Instant",
           "class": "SavedSearches",
-          "method": "DisableSubscriptionButton"
+          "method": "SubscriptionButtontoInstant"
 
         }
       ]
