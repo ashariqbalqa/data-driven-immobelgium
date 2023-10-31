@@ -59,7 +59,12 @@
         {
           "name": "Update Saved Search Name",
           "class": "SavedSearches",
-          "method": "UpdateSavedSearchName"
+          "method": "UpdateSavedSearchName",
+          "parameters": {
+            "savedsearchname": "SavedSearchTest01"
+
+
+          }
 
         }
       ]
