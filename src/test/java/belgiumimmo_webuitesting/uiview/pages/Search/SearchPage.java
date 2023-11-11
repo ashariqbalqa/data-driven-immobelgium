@@ -11,7 +11,7 @@ public class SearchPage extends BaseWebUI<SearchMap> {
         webAction.getToUrl("Https://staging.belgiumimmo.be/en/search", true);
         return this;
     }
-    public SearchPage SearchBarTest(){
+    public SearchPage SearchBar(){
         webAction.type(Map().getClickSearchBar(), "IMMO NOBELS","SearchBar");
 
         return this;
@@ -28,7 +28,7 @@ public class SearchPage extends BaseWebUI<SearchMap> {
 
         return this;
     }
-    public SearchPage EnterValuesInMinMaxBox(){
+    public SearchPage EnterMinAndMaxPriceForSale(){
         webAction.click(Map().getClickFilterButton(),"Filters Button");
         webAction.type(Map().getClickMinPriceBox(), "Min Button Box","MinButton");
         webAction.type(Map().getClickMaxPriceBox(), "Max Button Box","MaxButton");
@@ -53,23 +53,92 @@ public class SearchPage extends BaseWebUI<SearchMap> {
 
         return this;
     }
-    public SearchPage EnterValuesInLivingAreaMinMaxBox(){
+    public SearchPage EnterValuesInLivingAreaMinMax(){
         webAction.click(Map().getClickFilterButton(),"Filters Button");
         webAction.type(Map().getEnterMinLivingAreaBox(), "Min Living Area Box","MinButton");
         webAction.type(Map().getEnterMaxLivingArea(), "Max Living Area Box","MaxButton");
 
         return this;
     }
-    public SearchPage EnterValuesInPlotAreaMinMaxBox(){
+    public SearchPage EnterValuesInPlotAreaMinMax(){
         webAction.click(Map().getClickFilterButton(),"Filters Button");
         webAction.type(Map().getEnterMinPlotArea(), "Min Plot Area Box","MinButton");
         webAction.type(Map().getEnterMaxPriceBox(), "Max Plot Area Box","MaxButton");
 
         return this;
     }
-    public SearchPage ClickPropertyCondition(){
+    public SearchPage SelectPropertyConditionSale(){
         webAction.click(Map().getClickFilterButton(),"Filters Button");
         webAction.click(Map().getClickPropertyCondition(), "Select Property Condition");
+
+        return this;
+    }
+    public SearchPage EnterValuesInConstructionYearStartEnd(){
+        webAction.click(Map().getClickFilterButton(),"Filters Button");
+        webAction.type(Map().getEnterConstructionYearStart(), "Min Construction Year","MinButtonConstructionYear");
+        webAction.type(Map().getEnterConstructionYearEnd(), "Max Construction Year","MaxButtonConstructionYear");
+
+        return this;
+    }
+    public SearchPage SelectPropertyStatusIsImmediatelyAvailable(){
+        webAction.click(Map().getClickFilterButton(),"Filters Button");
+        webAction.click(Map().getClickImmediatelyAvailable(), "Immediately Available");
+
+        return this;
+    }
+    public SearchPage ClickRentEnterMaxMinPrice(){
+        webAction.click(Map().getClickFilterButton(),"Filters Button");
+        webAction.click(Map().getSelectForRent(), "Select For Rent");
+        webAction.type(Map().getClickMinPriceBox(), "Min Button Box","MinButton");
+        webAction.type(Map().getClickMaxPriceBox(), "Max Button Box","MaxButton");
+
+        return this;
+    }
+    public SearchPage ClickRentSelectNumberOfRooms(){
+        webAction.click(Map().getClickFilterButton(),"Filters Button");
+        webAction.click(Map().getSelectForRent(), "Select For Rent");
+        webAction.click(Map().getClick3NumberOfRooms(), "Select Number Of Rooms Three");
+
+        return this;
+    }
+    public SearchPage ClickRentSelectNumberOfBathrooms(){
+        webAction.click(Map().getClickFilterButton(),"Filters Button");
+        webAction.click(Map().getSelectForRent(), "Select For Rent");
+        webAction.click(Map().getClick2NumberOfBathrooms(), "Select Number Of Bathrooms Two");
+
+        return this;
+    }
+    public SearchPage ClickRentSelectEPCLabel(){
+        webAction.click(Map().getClickFilterButton(),"Filters Button");
+        webAction.click(Map().getSelectForRent(), "Select For Rent");
+        webAction.click(Map().getSelectEPCLabelA(), "Select EPC Label");
+
+        return this;
+    }
+    public SearchPage ClickRentSelectMinMaxLivingArea(){
+        webAction.click(Map().getClickFilterButton(),"Filters Button");
+        webAction.type(Map().getEnterMinLivingAreaBox(), "Min Living Area Box","MinButton");
+        webAction.type(Map().getEnterMaxLivingArea(), "Max Living Area Box","MaxButton");
+
+        return this;
+    }
+    public SearchPage ClickRentSelectPlotSize(){
+        webAction.click(Map().getClickFilterButton(),"Filters Button");
+        webAction.type(Map().getEnterMinPlotArea(), "Min Plot Area Box","MinButton");
+        webAction.type(Map().getEnterMaxPriceBox(), "Max Plot Area Box","MaxButton");
+
+        return this;
+    }
+    public SearchPage ClickRentSelectPropertyCondition(){
+        webAction.click(Map().getClickFilterButton(),"Filters Button");
+        webAction.click(Map().getSelectPropertyConditionToRestore(), "Select Property Condition To Restore");
+
+        return this;
+    }
+    public SearchPage ClickRentEnterConstructionYear(){
+        webAction.click(Map().getClickFilterButton(),"Filters Button");
+        webAction.type(Map().getEnterConstructionYearStart(), "Min Construction Year","MinButtonConstructionYear");
+        webAction.type(Map().getEnterConstructionYearEnd(), "Max Construction Year","MaxButtonConstructionYear");
 
         return this;
     }

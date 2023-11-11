@@ -33,6 +33,17 @@ public class SearchMap extends BaseWebUIMap {
     private WebElement EnterMaxPlotArea;
     @FindBy (xpath = "(.//*[normalize-space(text()) and normalize-space(.)='Property Condition'])[1]/following::span[1]")
     private WebElement ClickPropertyCondition;
+    @FindBy (name = "minYear")
+    private WebElement EnterConstructionYearStart;
+    @FindBy (name = "maxYear")
+    private WebElement EnterConstructionYearEnd;
+    @FindBy (xpath= "//input[@value='is immediately available']")
+    private WebElement ClickImmediatelyAvailable;
+    @FindBy (xpath= "//div[@class='rent selected']")
+    private WebElement SelectForRent;
+    @FindBy (xpath= "//div[@class='state-sub-types mt-3']//div[2]//button[3]")
+    private WebElement SelectPropertyConditionToRestore;
+
     public WebElement getClickSearchBar(){
         return ClickSearchBar;
     }
@@ -68,5 +79,20 @@ public class SearchMap extends BaseWebUIMap {
     }
     public WebElement getEnterMaxPriceBox(){
         return EnterMaxPlotArea;
+    }
+    public WebElement getEnterConstructionYearStart(){
+        return EnterConstructionYearStart;
+    }
+    public WebElement getEnterConstructionYearEnd(){
+        return EnterConstructionYearEnd;
+    }
+    public WebElement getClickImmediatelyAvailable(){
+        return ClickImmediatelyAvailable;
+    }
+    public WebElement getSelectForRent(){
+        return SelectForRent;
+    }
+    public WebElement getSelectPropertyConditionToRestore(){
+        return SelectPropertyConditionToRestore;
     }
 }
