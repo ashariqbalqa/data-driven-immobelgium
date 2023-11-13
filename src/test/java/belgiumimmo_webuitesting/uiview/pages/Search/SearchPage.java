@@ -117,6 +117,7 @@ public class SearchPage extends BaseWebUI<SearchMap> {
     }
     public SearchPage ClickRentSelectMinMaxLivingArea(){
         webAction.click(Map().getClickFilterButton(),"Filters Button");
+        webAction.click(Map().getSelectForRent(), "Select For Rent");
         webAction.type(Map().getEnterMinLivingAreaBox(), "Min Living Area Box","MinButton");
         webAction.type(Map().getEnterMaxLivingArea(), "Max Living Area Box","MaxButton");
 
@@ -124,6 +125,7 @@ public class SearchPage extends BaseWebUI<SearchMap> {
     }
     public SearchPage ClickRentSelectPlotSize(){
         webAction.click(Map().getClickFilterButton(),"Filters Button");
+        webAction.click(Map().getSelectForRent(), "Select For Rent");
         webAction.type(Map().getEnterMinPlotArea(), "Min Plot Area Box","MinButton");
         webAction.type(Map().getEnterMaxPriceBox(), "Max Plot Area Box","MaxButton");
 
@@ -131,15 +133,55 @@ public class SearchPage extends BaseWebUI<SearchMap> {
     }
     public SearchPage ClickRentSelectPropertyCondition(){
         webAction.click(Map().getClickFilterButton(),"Filters Button");
+        webAction.click(Map().getSelectForRent(), "Select For Rent");
         webAction.click(Map().getSelectPropertyConditionToRestore(), "Select Property Condition To Restore");
 
         return this;
     }
     public SearchPage ClickRentEnterConstructionYear(){
         webAction.click(Map().getClickFilterButton(),"Filters Button");
+        webAction.click(Map().getSelectForRent(), "Select For Rent");
         webAction.type(Map().getEnterConstructionYearStart(), "Min Construction Year","MinButtonConstructionYear");
         webAction.type(Map().getEnterConstructionYearEnd(), "Max Construction Year","MaxButtonConstructionYear");
 
+        return this;
+    }
+    public SearchPage SelectPropertyStatusIsImmediatelyAvailableRent(){
+
+        webAction.click(Map().getClickFilterButton(),"Filters Button");
+        webAction.click(Map().getSelectForRent(), "Select For Rent");
+        webAction.click(Map().getClickImmediatelyAvailable(), "Immediately Available");
+        return this;
+    }
+    public SearchPage SelectPropertyTypeHouse(){
+
+        webAction.click(Map().getClickFilterButton(),"Filters Button");
+
+        webAction.click(Map().getSelectPropertyTypeHouse(),"Select Property Type House");
+        return this;
+    }
+    public SearchPage SelectPropertySubTypeBunglow(){
+
+        webAction.click(Map().getClickFilterButton(),"Filters Button");
+
+        webAction.click(Map().getSelectPropertyTypeHouse(),"Select Property Type House");
+        webAction.click(Map().getSelectPropertySubTypeBungalow(),"Select Property Sub-Type Bungalow");
+        return this;
+    }
+    public SearchPage SelectPropertySubTypeChalet(){
+
+        webAction.click(Map().getClickFilterButton(),"Filters Button");
+
+        webAction.click(Map().getSelectPropertyTypeHouse(),"Select Property Type House");
+        webAction.click(Map().getSelectPropertySubTypeChalet(),"Select Property Sub-Type Chalet");
+        return this;
+    }
+    public SearchPage SelectPropertySubTypeCastle(){
+
+        webAction.click(Map().getClickFilterButton(),"Filters Button");
+
+        webAction.click(Map().getSelectPropertyTypeHouse(),"Select Property Type House");
+        webAction.click(Map().getSelectPropertySubTypeCastle(),"Select Property Sub-Type Castle");
         return this;
     }
 }

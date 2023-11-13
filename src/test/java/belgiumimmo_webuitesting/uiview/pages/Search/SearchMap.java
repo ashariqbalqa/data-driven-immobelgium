@@ -43,7 +43,14 @@ public class SearchMap extends BaseWebUIMap {
     private WebElement SelectForRent;
     @FindBy (xpath= "//div[@class='state-sub-types mt-3']//div[2]//button[3]")
     private WebElement SelectPropertyConditionToRestore;
-
+    @FindBy (xpath= "//span[normalize-space()='House']")
+    private WebElement SelectPropertyTypeHouse;
+    @FindBy (xpath= "//span[normalize-space()='Bungalow']")
+    private WebElement SelectPropertySubTypeBungalow;
+    @FindBy (xpath= "//span[normalize-space()='Chalet']")
+    private WebElement SelectPropertySubTypeChalet;
+    @FindBy (xpath= "//div[@class='property-type']//div[1]//button[2]")
+    private WebElement SelectPropertySubTypeCastle;
     public WebElement getClickSearchBar(){
         return ClickSearchBar;
     }
@@ -94,5 +101,17 @@ public class SearchMap extends BaseWebUIMap {
     }
     public WebElement getSelectPropertyConditionToRestore(){
         return SelectPropertyConditionToRestore;
+    }
+    public WebElement getSelectPropertyTypeHouse(){
+        return SelectPropertyTypeHouse;
+    }
+    public WebElement getSelectPropertySubTypeBungalow(){
+        return SelectPropertySubTypeBungalow;
+    }
+    public WebElement getSelectPropertySubTypeChalet(){
+        return SelectPropertySubTypeChalet;
+    }
+    public WebElement getSelectPropertySubTypeCastle(){
+        return SelectPropertySubTypeCastle;
     }
 }
